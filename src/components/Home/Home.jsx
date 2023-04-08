@@ -7,6 +7,7 @@ import './Home.css';
 
 const Home = () => {
     const tshirts = useLoaderData();
+
     return (
         <div className='home-container'>
             <div className='t-shirts-container'>
